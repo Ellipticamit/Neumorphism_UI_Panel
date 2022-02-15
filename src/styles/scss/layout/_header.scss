@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    margin-bottom: 20px;
+
+    &__right {
+        max-width: 400px;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    &__left {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,36 @@
+.selectBox {
+    width: 220px;
+    position: relative;
+  
+    &__text {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      margin-bottom: 10px;
+      font-size: 0.8rem;
+    }
+  
+    .sort_by {
+      font-size: 0.8rem;
+      width: 100%;
+      box-sizing: border-box;
+      border: 0;
+      font-weight: 400;
+      height: 2rem;
+      padding: 10px 25px;
+      cursor: text;
+  
+      &--light {
+        background: var(--light-bg);
+        box-shadow: $lightShadow;
+      }
+  
+      &--dark {
+        background: var(--dark-bg);
+        box-shadow: $darkShadow;
+        color: #ffffff;
+      }
+  
+    }
+
+  }
